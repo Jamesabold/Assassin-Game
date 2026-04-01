@@ -41,14 +41,14 @@ return targets;
 
 export default function App() {
 const [screen, setScreen] = useState(SCREENS.HOME);
-const [roomCode, setRoomCode] = useState(””);
-const [joinCode, setJoinCode] = useState(””);
-const [myName, setMyName] = useState(””);
+const [roomCode, setRoomCode] = useState("");
+const [joinCode, setJoinCode] = useState("");
+const [myName, setMyName] = useState("");
 const [myId, setMyId] = useState(null);
 const [isHost, setIsHost] = useState(false);
 const [gameData, setGameData] = useState(null);
 const [pendingKill, setPendingKill] = useState(false);
-const [error, setError] = useState(””);
+const [error, setError] = useState("");
 const [loading, setLoading] = useState(false);
 const killFeedRef = useRef(null);
 const screenRef = useRef(screen);
